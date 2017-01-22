@@ -6,6 +6,8 @@ import { DashboardComponent } from './dashboard.component';
 import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroSearchComponent } from './hero-search.component';
+import { ClickMeComponent, KeyUpComponent_v1 } from './input/index';
+
 import { HeroService } from './hero.service';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpModule } from '@angular/http';
@@ -30,7 +32,10 @@ import './rxjs-extensions';
     DashboardComponent,
     HeroDetailComponent,
     HeroesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+
+    ClickMeComponent,
+    KeyUpComponent_v1
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]
